@@ -661,7 +661,7 @@ h2 {
 
 .contact-section {
   background-color: #f7ab24;
-  background-image: url("../images/contact-bg.jpg");
+  background-image: #;
   background-position:60% 0;
   background-size:contain;
   background-repeat:no-repeat;  
@@ -688,7 +688,7 @@ h2 {
 }
 
 #contact address {
-  font-size: 18px;  
+  font-size: 16px;  
   color: #373737; 
 }
 
