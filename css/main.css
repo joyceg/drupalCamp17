@@ -465,7 +465,7 @@ h2 {
 **************************/
 
 #about {
-  background-color: #75B46E;  
+  background-color:  #ecedef;  
   position: relative;  
   width: 100%;
   display: flex;
@@ -482,7 +482,7 @@ h2 {
 
 .about-content {
   width: 50%;
-   background-image: url("../images/about-bg.jpg");
+   #background-image: url("../images/about-bg.jpg");
   background-position: left bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -492,11 +492,14 @@ h2 {
 
 #about h2 {
   margin-bottom: 23px;
+  color: #373737;
 }
 
 .about-content p {
   font-size: 17px;
-  font-family: 'Dosis',sans-serif;
+  font-family: 'Dosis',sans-serif; 
+  color: #373737; 
+
 }
 
 #about .btn-primary {
