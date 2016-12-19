@@ -395,8 +395,8 @@ h2 {
 *******Event CSS******
 **************************/
 #event {
-  background-color: #1881a2;
-  #background-image: url("../images/performar-bg.jpg");
+  background-color: #33888F;
+  background-image: url("../images/performar-bg.jpg");
   background-position: 50% 0;
   background-size: contain;
   position: relative;
@@ -481,11 +481,11 @@ h2 {
 }
 
 .about-content {
-  #width: 50%;
+  width: 50%;
    #background-image: url("../images/about-bg.jpg");
-  #background-position: left bottom;
-  #background-repeat: no-repeat;
-  #background-size: cover;
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 70px 70px 110px;
 }
 
@@ -589,8 +589,8 @@ h2 {
 **************************/
 
 #sponsor {
-  background-color: #ecedef;
-  #background-image: url("../images/sponsor-bg.jpg");
+  background-color: #1881a2;
+  background-image: url("../images/sponsor-bg.jpg");
   background-position:50% 0;
   background-size: cover;
   background-repeat:no-repeat;
@@ -608,7 +608,6 @@ h2 {
 }
 
 #sponsor h2 {
-  color: #373737;
   margin-top: 90px;
   margin-bottom: 40px;
 }
@@ -664,18 +663,80 @@ h2 {
 **************************/
 
 .contact-section {
-  background-color: #1881a2;;
-  #background-image: #;
- # background-position:60% 0;
-  #background-size:contain;
-  #background-repeat:no-repeat;  
+  background-color: #f7ab24;
+  background-image: #;
+  background-position:60% 0;
+  background-size:contain;
+  background-repeat:no-repeat;  
   position: relative;
 }
 
+.ear-piece {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+#contact .container {
+  padding-top:47px;
+}
+
+#contact h3 {
+  text-transform:inherit;
+  color: #373737; 
+}
+
+#contact-section h3 {  
+  margin-bottom: 25px
+}
+
+#contact address {
+  font-size: 16px;  
+  color: #373737; 
+}
+
+.contact-text {
+  margin-bottom: 35px;
+  display: block;
+}
 
 
+#contact-section .form-control {
+  border-color: #ae750d;
+  box-shadow:none;
+  outline: 0 none;
+  border-radius: 0;
+  color: #797979;
+  font-size: 18px;
+}
 
+#contact-section .form-control:focus {
+  border-color: #ae750d;
+}
 
+#contact-section input {  
+  height: 44px;
+}
+
+#contact-section textarea {
+  height: 90px;
+  resize:none;
+}
+
+#contact-section .btn-primary {
+  background-color: #373737;
+  color: #f7ab24;
+  border: none;
+  font-size: 24px;
+  padding: 6px 42px;
+  margin-bottom: 110px;
+  margin-top: 10px
+}
+
+#contact-section .btn-primary:hover {
+  background-color: #212020;
+  color: #fff
+}
 
 
 
@@ -684,18 +745,18 @@ h2 {
 **************************/
 
 #footer {
-  background-color: #ecedef;
-  #background-image: url("../images/footer-bg.jpg");
+  background-color: #212121;
+  background-image: url("../images/footer-bg.jpg");
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
-  color:#373737;
+  color: #FFFFFF;
   font-size: 20px;
   padding: 35px 0;
 }
 
 #footer a {
-  color:#57000;
+  color:#f7ab24
 }
 
 #footer a:hover {
