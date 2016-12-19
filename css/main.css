@@ -103,7 +103,7 @@ h2 {
 
 .navbar-brand {
   background-color: #1B7B98;
-  height: 90px;
+  height: 70px;
   margin-bottom: 20px;
   position: relative;
   width: 297px;
@@ -115,13 +115,15 @@ h2 {
 }
 
 .navbar-right {
+    height: 70px;
+
   background-color: #1B7B98;
   padding:0 95px 0 0;
   opacity: .9
 }
 
 .navbar-right li a {
-  padding: 35px 21px;
+  padding: 30px 16px;
   font-size: 22px;
   color: #fff;
   text-transform: uppercase;
@@ -132,6 +134,7 @@ h2 {
 .navbar-right li a:hover, 
 .navbar-right li a:focus,  
 .navbar-right .active a {
+  height: 70px;
   background-color: #fff;
   color: #16728f
 }
@@ -149,7 +152,7 @@ h2 {
 
 
 .fixed-menu .navbar-right li a {
-  font-size: 18px;
+  font-size: 22px;
   padding: 20px 25px;
   text-shadow:inherit;
 }
@@ -462,7 +465,7 @@ h2 {
 **************************/
 
 #about {
-  background-color: #75B46E;  
+  background-color:  #ecedef;  
   position: relative;  
   width: 100%;
   display: flex;
@@ -479,7 +482,7 @@ h2 {
 
 .about-content {
   width: 50%;
-   background-image: url("../images/about-bg.jpg");
+   #background-image: url("../images/about-bg.jpg");
   background-position: left bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -489,11 +492,14 @@ h2 {
 
 #about h2 {
   margin-bottom: 23px;
+  color: #373737;
 }
 
 .about-content p {
   font-size: 17px;
-  font-family: 'Dosis',sans-serif;
+  font-family: 'Dosis',sans-serif; 
+  color: #373737; 
+
 }
 
 #about .btn-primary {
@@ -658,7 +664,7 @@ h2 {
 
 .contact-section {
   background-color: #f7ab24;
-  background-image: url("../images/contact-bg.jpg");
+  background-image: #;
   background-position:60% 0;
   background-size:contain;
   background-repeat:no-repeat;  
@@ -685,7 +691,7 @@ h2 {
 }
 
 #contact address {
-  font-size: 18px;  
+  font-size: 16px;  
   color: #373737; 
 }
 
