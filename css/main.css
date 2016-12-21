@@ -295,12 +295,21 @@ h2 {
   margin-top: 25px;
   text-transform: uppercase;
 }
+.single-event h4:hover {
+  color: #FFFFFF;
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 26px;
+  margin-top: 25px;
+  text-transform: uppercase;
+}
 
 
 .single-event h5 {
   font-size: 18px;
   font-weight: 100;
   display: block;
+
 }
 
 #event-carousel {
@@ -547,8 +556,11 @@ h2 {
 }
 
 #contact h3 {
-  text-transform:inherit;
+   margin-top: 90px;
+  margin-bottom: 40px;
+  #text-transform:inherit;
   color: #373737; 
+ font-size: 24px;
 }
 
 #contact-section h3 {  
