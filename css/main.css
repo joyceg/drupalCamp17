@@ -80,7 +80,7 @@ h2 {
 }
 
 .social-icons a {
-  font-size: 18px;
+  font-size: 20px;
   color: #fff;
   padding-left:20px;  
 }
@@ -364,19 +364,19 @@ h2 {
 
 
 #about h2 {
-  margin-bottom: 23px;
+  margin-bottom: 30px;
   color: #373737;
 }
 
 .about-content p {
-  font-size: 17px;
+  font-size: 20px;
   font-family: 'Dosis',sans-serif; 
   color: #373737; 
 
 }
 
 #about .btn-primary {
-  background-color: #137c61;
+  background-color: #137d61;
   color: #fff;
   text-transform: capitalize;
   border: none;
@@ -462,7 +462,7 @@ h2 {
 **************************/
 
 #sponsor {
-  background-color: #ecedef;
+  background-color: #ededef;
   #background-image: url("../images/sponsor-bg.jpg");
   background-position:50% 0;
   background-size: cover;
@@ -537,12 +537,19 @@ h2 {
 **************************/
 
 .contact-section {
-  background-color: #1881a2;
+  background-color: #188;
   #background-image: #;
-  #background-position:60% 0;
+  #background-position:70% 0;
   #background-size:contain;
   #background-repeat:no-repeat;  
   #position: relative;
+}
+
+.social-icons a {
+  font-size: 20px;
+  color: #000;
+  padding-left:30px;  
+
 }
 
 .ear-piece {
@@ -564,11 +571,12 @@ h2 {
 }
 
 .contact-section h2 {  
-  margin-bottom: 25px
+  margin-bottom: 15px;
 }
 
+
 #contact address {
-  font-size: 16px;  
+  font-size: 20px;  
   color: #373737; 
 }
 
@@ -584,7 +592,7 @@ h2 {
   outline: 0 none;
   border-radius: 0;
   color: #797979;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 #contact-section .form-control:focus {
@@ -612,8 +620,9 @@ h2 {
 
 #contact-section .btn-primary:hover {
   background-color: #212020;
-  color: #fff
+  color: 
 }
+
 
 
 
@@ -624,10 +633,10 @@ h2 {
 #footer {
   background-color: #ecedef;
   #background-image: url("../images/footer-bg.jpg");
-  background-position: center bottom;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  color: #373737;
+  color: #373;
   font-size: 20px;
   padding: 35px 0;
 }
